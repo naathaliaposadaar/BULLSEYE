@@ -15,8 +15,9 @@ class empresaDatos{
 		$empresa->tipo_empresa =$tipo_empresa;
 		$empresa->id_region=$id_region;
 		$empresa->razon_social=$razon_social;
+                $empresa->categoria_empresa=$categoria_empresa;
 		mysqli_select_db($con,"solostock");// nombre de database
-		$sql = "INSERT INTO empresa(nombre_empresa,rut_empresa,email_empresa,direccion_empresa,tipo_empresa,id_region,razon_social) VALUES('".$empresa->nombre_empresa."', '".$empresa->rut_empresa."','".$empresa->email_empresa."','".$empresa->direccion_empresa."','".$empresa->tipo_empresa."','".$empresa->id_region."','".$empresa->razon_social."')";
+		$sql = "INSERT INTO empresa(nombre_empresa,rut_empresa,email_empresa,direccion_empresa,tipo_empresa,id_region,razon_social) VALUES('".$empresa->nombre_empresa."', '".$empresa->rut_empresa."','".$empresa->email_empresa."','".$empresa->direccion_empresa."','".$empresa->tipo_empresa."','".$empresa->id_region."','".$empresa->razon_social."','".$empresa->razon_social."')";
 			
 		if(mysqli_query($con,$sql)){
 			return true;

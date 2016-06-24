@@ -54,8 +54,9 @@ class empresa{
 	}
 
 	function set_direccion_empresa($direccion_empresa){
-        $this->direccion_empresa =$direcciorazon_social;}
-	public $id_region;
+        $this->direccion_empresa =$direccion_empresa;}
+	
+        public $id_region;
 	function get_id_region(){
 		return $this->id_region;
 	}
@@ -80,6 +81,15 @@ class empresa{
 
 	function set_nombre_empresa($nombre_empresa){
 		$this->nombre_empresa =$nombre_empresa;
+	}
+        
+        public $categoria_empresa;
+	function get_categoria_empresa(){
+		return $this->categoria_empresa;
+	}
+
+	function set_categoria_empresa($categoria_empresa){
+		$this->id_empresa =$categoria_empresa;
 	}
 }
 

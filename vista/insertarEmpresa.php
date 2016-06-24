@@ -43,7 +43,7 @@
   </fieldset>
   <fieldset class="form-group">
     <label for="">Tipo Empresa</label>
-    <select class="form-control" id="exampleSelect0">
+    <select class="form-control" id="ddlTipoEmpresa">
       <option>Unipersonal</option>
       <option>Sociedad Colectiva</option>
       <option>Cooperativa</option>
@@ -54,7 +54,7 @@
   </fieldset>
    <fieldset class="form-group">
     <label for="">Categoría Empresa</label>
-    <select class="form-control" id="exampleSelect1">
+    <select class="form-control" id="ddlCategoriaEmpresa">
       <option>AgroAlimentaria</option>
       <option>Ocio</option>
       <option>Hogar</option>
@@ -65,7 +65,7 @@
   </fieldset>
    <fieldset class="form-group">
     <label for="">Region</label>
-    <select class="form-control" id="exampleSelect2">
+    <select class="form-control" id="ddlRegionEmpresa">
       <option>I - Tarapacá</option>
       <option>II - Antofagasta</option>
       <option>III - Atacama</option>
