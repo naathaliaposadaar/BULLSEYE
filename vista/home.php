@@ -32,10 +32,10 @@
       <a class="nav-link" href="listadoProductos.php" style="color:white;">Productos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" style="color:white;">Empresas</a>
+      <a class="nav-link" href="listadoEmpresas.php" style="color:white;">Empresas</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
+      <a class="nav-link" href="inicioSesion.php" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
     </li>
   </ul>
 </nav>
