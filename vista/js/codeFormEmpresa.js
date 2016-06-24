@@ -4,7 +4,7 @@ function ini(){
 	$("#btnIngresarEmpresa").click(enviarDatos);
 }
 
-function enviaFormEmpresa{
+function enviaFormEmpresa(){
 	document.location.href="../insertarEmpresa.php";
 }
 
@@ -18,9 +18,6 @@ function enviarDatos(){
         var descripcion_empresa = $("txtDescripcionEmpresa").val();
         var categoria_empresa=$("ddlCategoriaEmpresa").val();
         var region_desc= $("ddlRegionEmpresa").val();      
-        
-        
-
 	//console.log(usuario);
 
 	$.ajax({

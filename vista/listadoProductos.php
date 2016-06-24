@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head style="background-color: #138295;">
-
+<img src="../imagenes/headerOtherPages.jpg" class="headerOtherPages" style="border-radius: 6px,6px;">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
     <meta name="author" content="">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/tamanioImagenes.css">
     <title>Sólo Stock</title>
 
     <!-- Bootstrap Core CSS -->
@@ -24,17 +25,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<img src="../imagenes/headerHomeCorregido.jpg" class="mediana" style="border-radius: 6px,6px;">
+
 </head>
 
-<body style="background-color: #138295;">
-
+<body style="padding-top:0;width:1300px;">
 <!-- Barra de Navegacion -->
 <nav class="navbar navbar-light bg-faded" style="background-color: #54c3b0;">
   <a class="navbar-brand"  style="color:white;"></a>
   <ul class="nav navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="Home.php" style="color:white;"><span class="glyphicon glyphicon-home"></span> Home </a>
+      <a class="nav-link" href="home.php" style="color:white;"><span class="glyphicon glyphicon-home"></span> Home </a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="listadoProductos.php" style="color:white;">Productos<span class="sr-only">(current)</span></a>
@@ -43,13 +43,13 @@
       <a class="nav-link" href="listadoEmpresas.php" style="color:white;">Empresas</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
+        <a class="nav-link" href="inicioSesion.php" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
     </li>
   </ul>
 </nav>
 <!-- BreadCrumb -->
 <ol class="breadcrumb">
-<li><a href="Home.php">Home</a></li>
+<li><a href="home.php">Home</a></li>
   <li class="active">Productos</li>
 </ol>
 </div>

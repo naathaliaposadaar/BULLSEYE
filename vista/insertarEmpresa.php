@@ -16,6 +16,32 @@
 
 </head>
 <body>
+     <!-- Barra de Navegacion -->
+<nav class="navbar navbar-light bg-faded" style="background-color: #54c3b0;">
+  <a class="navbar-brand" href="#" style="color:white;"></a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="home.php" style="color:white;"><span class="glyphicon glyphicon-home"></span> Home </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="listadoProductos.php" style="color:white;">Productos<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="listadoEmpresas.php" style="color:white;">Empresas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="inicioSesion.php" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
+    </li>
+  </ul>
+</nav>
+<!-- BreadCrumb -->
+<ol class="breadcrumb">
+<li><a href="home.php">Home</a></li>
+  <li class="active">Ingreso Empresas</li>
+</ol>
+</div>
+
+    <!-- Page Content -->
  
    <form id="formEmpresa">
    <div class="container">

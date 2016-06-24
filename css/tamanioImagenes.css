@@ -18,3 +18,11 @@
     #btnIngresarEmpresa{
     	width:250px;
     }
+    
+    img.headerOtherPages{
+        width:1300px;
+    }
+    
+    body{
+        background-color:#138295;
+    }
