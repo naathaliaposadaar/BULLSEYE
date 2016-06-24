@@ -47,7 +47,7 @@
 <div class="row">
   <div class="col-md-8">
   <input type="text" id="txtBuscaProducto" style="width:500px;" placeholder="Búsque su producto aquí..." /><button type="button" id="btnBuscar" class="btn btn-primary " value="Buscar" style="width: 250px;"><span class="glyphicon glyphicon-search"><span id="spanBuscar">   Buscar</span> </span></button>  
-  </div class="col-md-8">
+  </div>
   <div class="col-md-4">
   <button type="button" id="btnIngresarEmpresa" class="btn btn-warning "  style="width: 250px;"><span class="glyphicon glyphicon-hand-down"><span id="spanBuscar">   Inscribe tu Empresa Aquí</span> </span></button> 
   </div>
