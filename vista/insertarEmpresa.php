@@ -17,7 +17,7 @@
 </head>
 <body>
  
-  	 <form id="formEmpresa">
+   <form id="formEmpresa">
    <div class="container">
    <h3>Formulario Empresa <span class="glyphicon glyphicon-user"></span></h3>
   <fieldset class="form-group">
@@ -28,6 +28,10 @@
   <fieldset class="form-group">
     <label for="txtNombreEmpresa">Nombre Empresa</label>
     <input type="text" class="form-control" id="txtNombreEmpresa" placeholder="Ingrese Nombre Empresa">
+  </fieldset>
+   <fieldset class="form-group">
+    <label for="txtDireccionEmpresa">Dirección Empresa:</label>
+    <input type="text" class="form-control" id="txtDireccionEmpresa" placeholder="Ingrese Direccion de Empresa">
   </fieldset>
   <fieldset class="form-group">
     <label for="txtPassword">Password</label>
@@ -109,7 +113,7 @@
       Utilizaré esta cuenta para comprar y vender productos.
     </label>
   </div>
-  <button type="submit" class="btn btn-success">Agregar</button>
+  <button type="submit" class="btn btn-success" id="btnIngresarEmpresa">Agregar</button>
   </div>
 </form>
      <div class="container" id="resultado"><div>
