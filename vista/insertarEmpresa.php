@@ -9,14 +9,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/codeEmpresa.js"></script>
+  <script type="text/javascript" src="js/codeFormEmpresa.js"></script>
 	<title> Registro Empresa</title>
   <link rel="stylesheet" type="text/css" href="../css/login.css">
   <link rel="stylesheet" type="text/css" href="../css/formularioEmpresa.css">
 
 </head>
-<body>
-     <!-- Barra de Navegacion -->
+<body  style="padding-top:0; background-color: #eee">
+<img src="../imagenes/headerOtherPages.jpg" class="headerOtherPages" style="border-radius: 6px,6px;">
+    <!-- Barra de Navegacion -->
 <nav class="navbar navbar-light bg-faded" style="background-color: #54c3b0;">
   <a class="navbar-brand" href="#" style="color:white;"></a>
   <ul class="nav navbar-nav">
@@ -43,13 +44,13 @@
 
     <!-- Page Content -->
  
-   <form id="formEmpresa">
+<!--   <form id="formEmpresa">-->
    <div class="container">
    <h3>Formulario Empresa <span class="glyphicon glyphicon-user"></span></h3>
   <fieldset class="form-group">
     <label for="txtEmail">Correo Electrónico</label>
-    <input type="email" class="form-control" id="txtEmail" placeholder="Ingrese Email">
-    <small class="text-muted" style="color:white;">No compartiremos nunca su correo electrónico con ninguna otra persona.</small>
+    <input type="text" class="form-control" id="txtEmail" placeholder="Ingrese Email">
+    <small class="text-muted" >No compartiremos nunca su correo electrónico con ninguna otra persona.</small>
   </fieldset>
   <fieldset class="form-group">
     <label for="txtNombreEmpresa">Nombre Empresa</label>
@@ -58,10 +59,6 @@
    <fieldset class="form-group">
     <label for="txtDireccionEmpresa">Dirección Empresa:</label>
     <input type="text" class="form-control" id="txtDireccionEmpresa" placeholder="Ingrese Direccion de Empresa">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="txtPassword">Password</label>
-    <input type="password" class="form-control" id="txtPassword" placeholder="Password">
   </fieldset>
     <fieldset class="form-group">
     <label for="txtRutEmpresa">Rut Empresa</label>
@@ -74,52 +71,52 @@
   <fieldset class="form-group">
     <label for="">Tipo Empresa</label>
     <select class="form-control" id="ddlTipoEmpresa">
-      <option>Unipersonal</option>
-      <option>Sociedad Colectiva</option>
-      <option>Cooperativa</option>
-      <option>Comanditarias</option>
-      <option>Sociedad de Responsabilidad Limitada</option>
-      <option>Sociedad Anónima</option>
+      <option value="Unipersonal">Unipersonal</option>
+      <option value="Sociedad Colectiva">Sociedad Colectiva</option>
+      <option value="Cooperativa">Cooperativa</option>
+      <option value="Comanditarias">Comanditarias</option>
+      <option value="Sociedad de Responsabilidad Limitada">Sociedad de Responsabilidad Limitada</option>
+      <option value="Sociedad Anónima">Sociedad Anónima</option>
     </select>
   </fieldset>
    <fieldset class="form-group">
     <label for="">Categoría Empresa</label>
     <select class="form-control" id="ddlCategoriaEmpresa">
-      <option>AgroAlimentaria</option>
-      <option>Ocio</option>
-      <option>Hogar</option>
-      <option>Industria</option>
-      <option>Tecnología y equipamento</option>
-      <option>Salud, moda y belleza</option>
+      <option value="AgroAlimentaria">AgroAlimentaria</option>
+      <option value="Ocio">Ocio</option>
+      <option value="Hogar">Hogar</option>
+      <option value="Industria">Industria</option>
+      <option value="Tecnología y equipamento">Tecnología y equipamento</option>
+      <option value="Salud, moda y belleza">Salud, moda y belleza</option>
     </select>
   </fieldset>
    <fieldset class="form-group">
     <label for="">Region</label>
     <select class="form-control" id="ddlRegionEmpresa">
-      <option>I - Tarapacá</option>
-      <option>II - Antofagasta</option>
-      <option>III - Atacama</option>
-      <option>IV - Coquimbo</option>
-      <option>V - Valparaíso</option>
-      <option>VI - O'Higgins</option>
-      <option>VII - Maule</option>
-      <option>VIII - Biobío</option>
-      <option>IX - Araucanía</option>
-      <option>XIV Los Ríos</option>
-      <option>X Los Lagos</option>
-      <option>XI - Aysén</option>
-      <option>XII - Magallanes</option>
-      <option>RM - Metropolitana de Santiago</option>
+      <option value="1">I - Tarapacá</option>
+      <option value="2">II - Antofagasta</option>
+      <option value="3">III - Atacama</option>
+      <option value="4">IV - Coquimbo</option>
+      <option value="5">V - Valparaíso</option>
+      <option value="6">VI - O'Higgins</option>
+      <option value="7">VII - Maule</option>
+      <option value="8">VIII - Biobío</option>
+      <option value="9">IX - Araucanía</option>
+      <option value="14">XIV Los Ríos</option>
+      <option value="10">X Los Lagos</option>
+      <option value="11">XI - Aysén</option>
+      <option value="12">XII - Magallanes</option>
+      <option value="13">RM - Metropolitana de Santiago</option>
     </select>
   </fieldset>
   <fieldset class="form-group">
     <label for="txtDescripcionEmpresa">Descripción de la Empresa</label>
     <textarea class="form-control" id="txtDescripcionEmpresa" rows="3"></textarea>
   </fieldset>
-  <fieldset class="form-group">
+<!--  <fieldset class="form-group">
     <label for="imagenCorporativa">Imágen Corporativa</label>
     <input type="file" class="form-control-file" id="imagenCorporativa">
-    <small class="text-muted" style="color:white;">sube imágen del logo de tu empresa para poder indexarla a nuestro listado de empresas </small>
+    <small class="text-muted">sube imágen del logo de tu empresa para poder indexarla a nuestro listado de empresas </small>
   </fieldset>
   <div class="radio">
     <label>
@@ -138,10 +135,19 @@
       <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
       Utilizaré esta cuenta para comprar y vender productos.
     </label>
+  </div>-->
+  <button type="button" class="btn btn-success" id="btnIngresarEmpresa">Agregar</button>
   </div>
-  <button type="submit" class="btn btn-success" id="btnIngresarEmpresa">Agregar</button>
-  </div>
-</form>
+<!--       <form id="contacto">
+           <h1>Datos de Contacto</h1>
+    <fieldset class="form-group">
+    <label for="txtNombreContacto">Nombre</label>
+    <input type="text" class="form-control" id="txtNombreContacto" placeholder="Ingrese Nombre Contacto">
+  </fieldset>-->
+          
+<!--    </form>
+       -->
+
      <div class="container" id="resultado"><div>
 </body>
 </html>

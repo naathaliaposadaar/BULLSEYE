@@ -90,17 +90,6 @@ class empresa{
 
 	function set_categoria_empresa($categoria_empresa){
 		$this->id_empresa =$categoria_empresa;
-	}
-        
-         public $region_desc;
-	function get_region_desc(){
-		return $this->region_desc;
-	}
-
-	function set_region_desc($region_desc){
-		$this->region_desc =$region_desc;
-	}
+	}    
 }
-
-
 ?>

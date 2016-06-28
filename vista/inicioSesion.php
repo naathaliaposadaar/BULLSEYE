@@ -19,7 +19,7 @@
 
     <!-- Barra de Navegacion -->
 <nav class="navbar navbar-light bg-faded" style="background-color: #54c3b0;">
-  <a class="navbar-brand" href="#" style="color:white;"></a>
+  <a class="navbar-brand" href="home.php" style="color:white;"></a>
   <ul class="nav navbar-nav">
     <li class="nav-item active">
       <a class="nav-link" href="home.php" style="color:white;"><span class="glyphicon glyphicon-home"></span> Home </a>
@@ -31,7 +31,7 @@
       <a class="nav-link" href="listadoEmpresas.php" style="color:white;">Empresas</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="inicioSesion.php" style="color:white;"><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
+      <a class="nav-link" href="inicioSesion.php" style="color:white;" ><span class="glyphicon glyphicon-lock"></span> Inicia Sesión</a>
     </li>
   </ul>
 </nav>
@@ -44,7 +44,7 @@
 
   <div class="container">
   	 <div class="form-signin">
-          <h2 class="form-signin-heading" style="color:white;">Ingrese Datos</h2>
+          <h2 class="form-signin-heading" ><span class="glyphicon glyphicon-lock"></span>  Ingrese Datos</h2>
           <label for="lblUsername" class="sr-only">Username</label>
           <input type="text" id="txtUsername" class="form-control" placeholder="Username" required autofocus>
           <label for="lblPassword" class="sr-only">Password</label>

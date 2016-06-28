@@ -11,13 +11,13 @@ function enviaFormEmpresa(){
 function enviarDatos(){
 	var nombre_empresa = $("#txtNombreEmpresa").val();
 	var rut_empresa = $("#txtRutEmpresa").val();
-	var email_empresa = $("txtEmail").val();
-        var direccion_empresa = $("txtDireccionEmpresa").val();
-        var tipo_empresa = $("ddlTipoEmpresa").val();
-        var razon_social = $("txtRazonSocial").val();
-        var descripcion_empresa = $("txtDescripcionEmpresa").val();
-        var categoria_empresa=$("ddlCategoriaEmpresa").val();
-        var region_desc= $("ddlRegionEmpresa").val();      
+	var email_empresa = $("#txtEmail").val();
+        var direccion_empresa = $("#txtDireccionEmpresa").val();
+        var tipo_empresa = $("#ddlTipoEmpresa").val();
+        var razon_social = $("#txtRazonSocial").val();
+        var descripcion_empresa = $("#txtDescripcionEmpresa").val();
+        var categoria_empresa=$("#ddlCategoriaEmpresa").val();
+        var id_region= $("#ddlRegionEmpresa").val();      
 	//console.log(usuario);
 
 	$.ajax({
@@ -39,7 +39,7 @@ function enviarDatos(){
                         razon_social:razon_social,
                         descripcion_empresa:descripcion_empresa,
                         categoria_empresa:categoria_empresa,
-                        region_desc:region_desc
+                        id_region:id_region
                         
 		},
 		type:"GET"
